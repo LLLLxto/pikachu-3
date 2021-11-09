@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>一起画皮卡丘</title>
+  <link rel="stylesheet" href="./style.CSS">
 </head>
 <body>
 <div id="demo1"></div>
@@ -16,51 +17,7 @@
   <button id="btnNormal">中速</button>
   <button id="btnFast">快速</button>
 </div>
-<style>
-  *{box-sizing:border-box;}
-  *::before,*::after{box-sizing:border-box;}
-  #buttons{
-    position: fixed;
-    right:0;
-    top:0;
-    margin-right: 10px;
-    margin-top: 10px;
-    z-index:10;
-    display:flex;
-    flex-direction:column;
-  }
-  #buttons>button{
-    margin-bottom:10px;
-    padding:4px 8px;
-    background: #ffe600;
-    border:none;
-    border-radius: 12px;
-    box-shadow: 0 0 3px rgba(0,0,0,.25);
-  }
-  #demo2 {
-    display: none;
-  }
-  #demo1 {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 50vh;
-    border: 2px solid #ffe600;
-    overflow-y: auto;
-    padding:0 8px;
-  }
-  #demo1::-webkit-scrollbar {
-    display: none;
-  }
-  #html {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50vh;
-  }
-</style>
+
 <div id="html">
   <div class="skin">
     <div class="eye left"></div>
